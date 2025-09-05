@@ -10,15 +10,16 @@ The pipeline processes Sentinel-1 SAR imagery, applies preprocessing steps, and 
 - Export results as CSV with bounding box coordinates
 
 ## File Structure
+```text
 SAR-Ship-Detection/
-│── README.md # Project overview
-│── requirements.txt # Dependencies
+│── README.md                # Project overview
+│── requirements.txt         # Dependencies
 │── notebooks/
-│ └── sar_ship_detection.ipynb # Jupyter notebook walkthrough
+│   └── sar_ship_detection.ipynb   # Jupyter notebook walkthrough
 │── src/
-│ ├── preprocess.py # SAR preprocessing functions
-│ ├── detect_ships.py # Ship detection pipeline
-│ └── visualize.py # Visualization functions
+│   ├── preprocess.py        # SAR preprocessing functions
+│   ├── detect_ships.py      # Ship detection pipeline
+│   └── visualize.py         # Visualization functions
 │── data/
-│ └── instructions.txt # Notes on downloading Sentinel-1 data
+│   └── instructions.txt     # Notes on downloading Sentinel-1 data
 │── .gitignore
