@@ -1,0 +1,2 @@
+Place Sentinel-1 SAR .tif imagery files in this folder before running the pipeline.
+Example: data/sar_sample.tif

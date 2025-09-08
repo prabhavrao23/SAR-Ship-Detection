@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scikit-image
+opencv-python
+geopandas
+rasterio
+pandas
