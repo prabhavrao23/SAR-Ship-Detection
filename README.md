@@ -30,7 +30,7 @@ SAR-Ship-Detection/
 git clone <repo_url>
 cd SAR-Ship-Detection
 pip install -r requirements.txt
-
+```
 
 ## Usage
 - Run the notebook in `notebooks/sar_ship_detection.ipynb`
