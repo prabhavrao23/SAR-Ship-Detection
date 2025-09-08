@@ -23,3 +23,15 @@ SAR-Ship-Detection/
 │── data/
 │   └── instructions.txt     # Notes on downloading Sentinel-1 data
 │── .gitignore
+```
+
+## Setup
+```bash
+git clone <repo_url>
+cd SAR-Ship-Detection
+pip install -r requirements.txt
+
+
+## Usage
+- Run the notebook in `notebooks/sar_ship_detection.ipynb`
+- Or call scripts directly from `src/`
